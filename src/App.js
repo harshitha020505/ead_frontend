@@ -9,7 +9,8 @@ function App() {
   const [skills, setSkills] = useState("");
   const [message, setMessage] = useState(null);
 
-  const API = config.API_URL;
+const API = "https://ead-backend-7ra3.onrender.com";
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -110,3 +111,4 @@ function App() {
 }
 
 export default App;
+
